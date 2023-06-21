@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <style>
+    h2{
+      color: #f30202;
+      text-align: center;
+      font-size: 48px;
+    }
+  </style>
+
+<h2>DESENHOS DO DERICK</h2>
+    <ul id="myMenu">
+      <li><a href="#cartoonito">CARTOONITO</a></li>
+      <li><a href="#cartoonnetwork">CARTOON NETWORK</a></li>
+      <li><a href="#discoverykids">DISCOVERY KIDS</a></li>
+      <li><a href="#disneychannel">DISNEY CHANNEL</a></li>
+      <li><a href="#gloob">GLOOB</a></li>
+      <li><a href="#gloobinho">GLOOBINHO</a></li>
+      <li><a href="#nickjr">NICK JR</a></li>
+      <li><a href="#nickelodeon">NICKELODEON</a></li>
+      <style>/* Style the search box */
+        #mySearch {
+          width: 250px;
+          font-size: 18px;
+          padding: 11px;
+          border: 2px solid #f30202;
+          color: black;
+          
+        }
+        
+        /* Style the navigation menu */
+        #myMenu {
+          list-style-type:circle;
+          padding: 0;
+          margin: 0;
+          max-width: 250px;
+        }
+        
+        /* Style the navigation links */
+        #myMenu li a {
+          padding: 12px;
+          text-decoration: none;
+          color: rgb(255, 255, 255);
+          display: block
+        }
+        
+        #myMenu li a:hover {
+          background-color: #f71d1d;
+        }</style>
+      <script>
+         var input, filter, ul, cartoonito, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  cartoonito = ul.getElementsByTagName("cartoonito");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+
+      </script>
+    </ul>
+    </style>
+    
+      </div>
+    <style> 
+        body {background-image: url(https://i.imgur.com/jGW6CfT.jpeg);
+            background-repeat: no-repeat;
+        height:2000px;
+        background-attachment:fixed;
+      background-size: 100% 100%;}
+        
+      
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESENHOS DO DERICK</title>
+
+</head>
+<body>
+  <style>
+    h1{
+    text-align: left;
+    color: white;
+    font-family: "Open Sans Condesed", sans-serif;
+}
+  </style>
+      <div id="cartoonito"><h1>CARTOONITO</h1>
+      <iframe name=Player "cartoonito" src="https://sinalpublico.com/player3/ch.php?canal=cartoonito" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+      <div id="cartoonnetwork"> <h1>CARTOON NETWORK</h1></div>
+      <iframe name=Player "cartoonnetwork" src="https://sinalpublico.com/player3/ch.php?canal=cartoon" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+      <div id="discoverykids"><h1>DISCOVERY KIDS</h1>
+      <iframe name=Player "discoverykids" src="https://sinalpublico.com/player3/ch.php?canal=discoverykids" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+      <div id="disneychannel"><h1>DISNEY CHANNEL</h1>
+      <iframe name=Player "disneychannel" src="https://sinalpublico.com/player3/ch.php?canal=disney" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+      <div id="gloob"><h1>GLOOB</h1>
+      <iframe name=Player "gloob" src="https://sinalpublico.com/player3/ch.php?canal=gloob" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+      <div id="gloobinho"><h1>GLOOBINHO</h1>
+      <iframe name=Player "gloobinho" src="https://sinalpublico.com/player3/ch.php?canal=gloobinho" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+      <div id="nickjr"><h1>NICK JR</h1>
+      <iframe name=Player "nickjr" src="https://sinalpublico.com/player3/ch.php?canal=nickjr" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+      <div id="nickelodeon"><h1>NICKELODEON</h1>
+      <iframe name=Player "nickelodeon" src="https://sinalpublico.com/player3/ch.php?canal=nick" frameborder=0 height=400 scrolling=no width=640 allowFullScreen> </iframe>
+	
+    </body>
+</html>
